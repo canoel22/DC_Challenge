@@ -16,7 +16,6 @@ describe_carros_df = carros.describe()
 print(describe_carros_df)
 
 
-
 #------------- printamos os gráficos --------------------
 
 num_columns= describe_carros_df._get_numeric_data().columns
